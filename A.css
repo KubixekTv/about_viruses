@@ -1,0 +1,30 @@
+body {
+  background-image: url("B.jpg");
+  font-family: Arial;
+  font-size:20px;
+  color:white;
+  text-shadow: 3px 3px 3px #000000;
+}
+.margines {
+	margin-left: 400px;
+	margin-right: 400px;
+}
+h1 {
+	color:#00c237;
+	font-size:50px;
+	font-weight:bold;
+}
+h2 {
+    color:red;
+    font-size:35px;  
+}
+
+img {
+	-webkit-filter: drop-shadow(4px 4px 0px #000000);
+	filter: drop-shadow(4px 4px 0px #000000);
+}
+.rainbow-text {
+  background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+  -webkit-background-clip: text;
+  color: transparent;
+}
